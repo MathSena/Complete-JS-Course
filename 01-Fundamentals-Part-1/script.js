@@ -39,3 +39,31 @@ let job = "Programmer";
 console.log('Before: ' + job)
 job = "Teacher";
 console.log('After: ' + job)
+
+
+
+console.log('Basic Operations')
+const now = 2021;
+const ageAmy = now - 1984;
+const ageMath = now - 1996;
+
+console.log(ageAmy, ageMath);
+console.log("Operations with ageMath: " + ageMath*2, ageMath/10, 2**3);
+
+
+const firstName = "Matheus"
+const lastName = "Sena"
+
+console.log(firstName + ' ' + lastName)
+
+let x = 10+5
+x += 10
+x += 4
+x++
+x--
+console.log(x)
+
+console.log(ageMath>ageAmy)
+
+
+
