@@ -62,8 +62,11 @@ x += 4
 x++
 x--
 console.log(x)
-
 console.log(ageMath>ageAmy)
+
+
+console.log('Basic Operations')
+console.log(now - 1991> now-2018);
 
 
 
