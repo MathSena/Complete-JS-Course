@@ -1,5 +1,5 @@
-let js = 'amazing';
-if(js === 'amazing') alert('Javascript s fun!');
+//let js = 'amazing';
+//if(js === 'amazing') alert('Javascript s fun!');
 
 console.log(40+30*9-2);
 
@@ -9,10 +9,10 @@ console.log('Values and Variables')
 console.log("Matheus");
 console.log(23);
 
-let firstName = "Matheus"
-let lastName = "Sena"
-let myFirstJob = "Programmer"
-let myCurrentJob = "Teacher"
+const firstName = "Matheus"
+const lastName = "Sena"
+let myFirstJob = "Office Boy"
+let myCurrentJob = "Programmer"
 let pi = 3.14
 
 console.log("My name is: " + firstName + " " + lastName)
@@ -32,13 +32,10 @@ console.log('After: ' + age)
 
 const birthYear = 1996;
 console.log('Before: ' + age)
-birthYear = 1987;
 console.log('After: ' + age)
 
 let job = "Programmer";
 console.log('Before: ' + job)
-job = "Teacher";
-console.log('After: ' + job)
 
 
 
@@ -50,9 +47,6 @@ const ageMath = now - 1996;
 console.log(ageAmy, ageMath);
 console.log("Operations with ageMath: " + ageMath*2, ageMath/10, 2**3);
 
-
-const firstName = "Matheus"
-const lastName = "Sena"
 
 console.log(firstName + ' ' + lastName)
 
@@ -67,6 +61,13 @@ console.log(ageMath>ageAmy)
 
 console.log('Basic Operations')
 console.log(now - 1991> now-2018);
+
+
+console.log('String Literals')
+
+stringLiteral = `I'm ${firstName}, i'm ${ageMath} years old and I work as ${myCurrentJob}`;
+
+console.log(stringLiteral);
 
 
 
