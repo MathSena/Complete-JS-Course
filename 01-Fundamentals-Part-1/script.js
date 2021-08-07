@@ -69,5 +69,23 @@ stringLiteral = `I'm ${firstName}, i'm ${ageMath} years old and I work as ${myCu
 
 console.log(stringLiteral);
 
+console.log('If/Else')
+
+const ageStart = 16;
 
 
+if(ageStart>=18){
+    console.log('Sarah can start driving license')
+}else{
+    const yearsLeft = 18-ageStart;
+    console.log(`Sarah is too young. Wait another ${yearsLeft} to start :)`)
+}
+
+let century;
+if(birthYear<=2000){
+    century = 20;
+}else{
+    century = 21;
+}
+
+console.log(century);
