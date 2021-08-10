@@ -89,3 +89,14 @@ if(birthYear<=2000){
 }
 
 console.log(century);
+
+console.log('Type Conversion')
+
+const inputYear = '1991'
+console.log(Number(inputYear));
+console.log(inputYear+18)
+
+console.log('Type Coercion')
+console.log('I am ' + 23 + ' years old')
+console.log('23' - '10' - 3);
+console.log('23'/ '2');
